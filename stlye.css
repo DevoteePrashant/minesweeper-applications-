@@ -1,0 +1,57 @@
+#gameContainer {
+    text-align: center;
+    margin: 20px;
+}
+
+#gameTable {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px; 
+    border: 2px solid black;
+    border-radius: 13px;
+    color: transparent;
+}
+
+.revealed {
+    background-color: #a19f9f;
+    color: #f80562;
+    color: #f80562;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.reset-button ,#myButton  {
+   background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+   margin: 10px;
+   padding:0px  5px;
+   width: 90px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+ }
+
+ .reset-button ,#myButton :hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }

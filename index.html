@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="./stlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="initializeGame()">
+    <div class="text-center">
+        <input type="number" id="width"  placeholder="width">
+        <input type="number" id="height"  placeholder="height">
+        <input type="number" id="mines"  placeholder="mines">
+        <button type="submit" id="myButton">update</button></div>
+    <div id="dataset"></div>
+    <div id="gameContainer">
+        <div class="items-container"></div>
+        <table id="gameTable" class="revealed"></table>
+        <div class="reset-container">
+            <div class="latest">now is not Game Over!</div>
+            <button type="button" class="reset-button" id="resetButton">Reset</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
